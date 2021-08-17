@@ -1,0 +1,66 @@
+2021-08-17 20:16:09
+零件号：(8540023AVN0001)
+软件版本号: (8540023AVN00S.001)
+硬件版本号: (8540023AVN00H.000)
+APP版本号:(8540023AVN00A.001)
+BT版本号：(8540023AVN00B.002)
+内部版本号：(0200)
+SVN版本号：(S046)
+广汽总成零件号：(8540023AVN0001)
+ECU零件号：(GAC_A20_hirain_DMS  )
+
+time.sh is deleted(Serial)
+Pass! time.sh is automatically generated 2021-8-17 20:16:41
+Pass! Can-message contains 0x3c7
+Pass! period of can massage 0x3c7: 200.0ms
+Pass! Can-message contains 0x387
+Pass! period of can massage 0x387: 200.0ms
+Pass! Can-message contains 0x522
+Pass! period of can massage 0x522: 200.1ms
+Fail! ADASL3 function is not OK!!!---GAC_A20
+Pass! period of can massage 0x3c7: 199.6ms
+Pass! period of can massage 0x387: 199.6ms
+Pass! CanNM 0x522 sends five frames
+Pass! period of can massage 0x522: 201.2ms
+Pass! current<0.001 in sleep mode
+Fail! number of DTC is: 1
+d2408710
+lost communication with ADAS_FRR_1. status bit: 10
+Pass! working mode is OK!
+Pass! communication mode (8V) is OK!
+Pass! communication mode (17V) is OK!
+Pass! Low power mode (6.5V) is OK!
+Pass! Low power mode (18.5V) is OK!
+Pass! working mode to communication mode (12 V to 8 V)
+Pass! working mode to communication mode (12 V to 17 V)
+Pass! communication mode to working mode (8 V to 12 V)
+Pass! communication mode to working mode (17 V to 12 V)
+Pass! working mode to low power mode (12 V to 6.5 V)
+Pass! working mode to low power mode (12 V to 18.5 V)
+Pass! low power mode to working mode (6.5 V to 12 V)
+Pass! low power mode to working mode (18.5 V to 12 V)
+Pass! low power mode to communication mode (6.5 V to 8 V)
+Pass! low power mode to communication mode (6.5 V to 17 V)
+Pass! low power mode to communication mode (18.5 V to 8 V)
+Pass! low power mode to communication mode (18.5 V to 17 V)
+Pass! communication mode to low power mode (8 V to 6.5 V)
+Pass! communication mode to low power mode (8 V to 18.5 V)
+Pass! communication mode to low power mode (17 V to 6.5 V)
+Pass! communication mode to low power mode (17 V to 18.5 V)
+upper limit of voltage for can message disappeared during voltage-rise: 18.3
+lower limit of voltage for can message disappeared during voltage-drop: 6.8
+lower limit of voltage for can message appeared during voltage-rise: 7.1
+upper limit of voltage for can message appeared during voltage-drop: 18.2
+lower limit of voltage for camera working to None during voltage-drop: 8.9
+upper limit of voltage for camera working to None during voltage-rise: 16.3
+lower limit of voltage for None to camera working during voltage-rise: 9.3
+upper limit of voltage for None to camera working  during voltage-drop: 15.9
+Pass! IGN work
+CANFlash-test
+Pass! CANFlash is ok
+CANFlash-test
+Pass! Test engineering backtracking is ok
+SPIFlash-test
+Pass! SPIFlash is ok
+CANFlash-test
+Pass! Test engineering backtracking is ok

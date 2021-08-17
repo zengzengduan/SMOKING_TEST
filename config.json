@@ -1,0 +1,9 @@
+{
+    "?power_source_name":"1.RIGOL 2.KORAD",
+    "power_source_name":"RIGOL",
+    "?com_port":"According to port settings of the computer device manager",
+    "com_port":"COM5",
+    "?connection":"1.SSH 2.Serial",
+    "connection":"Serial",
+    "com_port_j2":"COM6"
+}
